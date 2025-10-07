@@ -61,7 +61,7 @@ const HeroSection = () => {
           {/* Right Content - Image */}
           <div className="relative ">
             <div className="relative z-10" >
-              <img style={{height:"30rem"}}
+              <img style={{height:"30rem", width:"25rem"}}
                 src={`${linda}`}
                 alt="Linda Susan - Beauty & Lifestyle Influencer"
                 className="w-full h- rounded-3xl shadow-2xl"

@@ -11,12 +11,12 @@ const VideoReels = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12 text-center">Latest Video Reels</h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5 p-3 m-10 ">
           {reels.map((reel, index) => (
             <div key={index} className="group relative">
-              <div className="aspect-[9/16] bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl overflow-hidden relative">
+              <div className="aspect-[9/16] bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl overflow-hidden relative ">
                 <img 
-                  src={`https://images.unsplash.com/photo-${1550000000000 + index}?w=400&h=700&fit=crop`}
+                  src={`https://images.unsplash.com/photo-${1550000000000 + index}?w=400&h=700&fit=crop` }
                   alt="Reel thumbnail"
                   className="w-full h-full object-cover"
                   onError={(e) => {

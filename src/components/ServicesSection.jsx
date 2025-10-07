@@ -34,7 +34,7 @@ const ServicesSection = () => {
           <Button variant="outline">View All Services</Button>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-12 ">
           {tabs.map((tab, index) => (
             <button
               key={index}
@@ -50,7 +50,7 @@ const ServicesSection = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div key={index} className="bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
