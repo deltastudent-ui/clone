@@ -50,7 +50,7 @@ const Header = () => {
           </nav>
 
           {/* Desktop Follow Button */}
-          <Button className=" lg:flex bg-gradient-to-r from-primary to-secondary text-white">
+          <Button className="hidden lg:flex bg-gradient-to-r from-primary to-secondary text-white">
             + Follow Me
           </Button>
 
@@ -73,7 +73,7 @@ const Header = () => {
                     {link.label}
                   </a>
                 ))}
-                
+                <Button className="bg-gradient-to-r from-primary to-secondary text-white mt-4"> + Follow Me </Button>
               </nav>
             </SheetContent>
           </Sheet>
